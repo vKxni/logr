@@ -19,13 +19,13 @@ function Info(): JSX.Element {
 
                             <hr></hr>
 
-                            <h2>Is this save?</h2>
-                            <p>Yes sdlkfjsdlksfdjfsdkljalkfjasdfklsdjsdlksdjflj</p>
+                            <h2>How?</h2>
+                            <p>Yes</p>
 
                             <hr></hr>
 
-                            <h2>Is this save?</h2>
-                            <p>Yes abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
+                            <h2>Is this nice?</h2>
+                            <p>Yes</p>
                         </div>
                     </div>
                 </div>
