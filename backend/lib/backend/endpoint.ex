@@ -1,6 +1,6 @@
 defmodule Backend.Endpoint do
   use Plug.Builder
-  Plug.Head
+  plug Plug.Head
 
   plug Corsica,
     max_age: 600,
