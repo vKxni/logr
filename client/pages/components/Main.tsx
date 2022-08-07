@@ -3,8 +3,6 @@ import Link from "next/link";
 import styles from "./Main.module.css";
 import { Helmet } from "react-helmet";
 
-// import Spline from '@splinetool/react-spline';
-
 function Main(): JSX.Element {
     const handleClick = async () => {
         try {
@@ -23,18 +21,6 @@ function Main(): JSX.Element {
     async function DataClicker() {
         handleClick().then(alert)
     }
-
-    /*
-    <div className={styles.button}>
-        <button onClick={DataClicker}>Click!</button>
-    </div>
-
-    import mascot from "../../public/images/mascot.png";
-    <div className={styles.boxLogo}><Image src={mascot} alt="Mascot" width={400} height={300}/></div>
-
-
-    <Spline scene="https://prod.spline.design/q0FwFTTPLvvhcBK0/scene.splinecode" />
-    */
 
     return (
         <>
